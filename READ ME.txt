@@ -1,0 +1,33 @@
+-----------FTP Server Multi Update File-----------
+
+事前にApp.Configに記入する事
+ーユーザー名
+ーパスワード
+ーFTPサーバーURL
+
+Fileの送り方ーー
+
+一つの場合
+.exeのアドレス、送るもののアドレス
+
+例）C:\FTP Server Multi Update File.exe "C:\Users\Public\Documents\file"
+
+
+一つ以上のものは','で区切る
+
+例）C:\FTP Server Multi Update File.exe "C:\Users\Public\Documents\file,C:\Users\Public\Documents\file2,C:\Users\Public\Documents\file 3"
+
+------C# の例1
+
+  var file1 = @"C:\Users\Public\Documents\file,C:\Users\Public\Documents\file2,C:\Users\Public\Documents\file 3";
+
+  var app = new ProcessStartInfo();
+  app.FileName = @"C:\FTP Server Multi Update File.exe";
+  app.Arguments = file1;
+
+  Process.Start(app);
+
+
+------例2
+
+ Process.Start(@"C:\FTP Server Multi Update File.exe",@"C:\Users\Public\Documents\file,C:\Users\Public\Documents\file2,C:\Users\Public\Documents\file 3");

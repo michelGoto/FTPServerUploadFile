@@ -1,0 +1,6 @@
+C:\Users\hiratahideo\Source\Repos\FTP Server Multi Update File\FTP Server Multi Update File\bin\Release\FTP Server Multi Update File.exe.config
+C:\Users\hiratahideo\Source\Repos\FTP Server Multi Update File\FTP Server Multi Update File\bin\Release\FTP Server Multi Update File.exe
+C:\Users\hiratahideo\Source\Repos\FTP Server Multi Update File\FTP Server Multi Update File\bin\Release\FTP Server Multi Update File.pdb
+C:\Users\hiratahideo\Source\Repos\FTP Server Multi Update File\FTP Server Multi Update File\obj\Release\FTP Server Multi Update File.csproj.CoreCompileInputs.cache
+C:\Users\hiratahideo\Source\Repos\FTP Server Multi Update File\FTP Server Multi Update File\obj\Release\FTP Server Multi Update File.exe
+C:\Users\hiratahideo\Source\Repos\FTP Server Multi Update File\FTP Server Multi Update File\obj\Release\FTP Server Multi Update File.pdb
